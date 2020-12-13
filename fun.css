@@ -1,9 +1,17 @@
-body {
-    background-color: lightblue;
-  }
 h1 {
-    color: black;
-    text-decoration: underline;
+    color: white;
+    background-color: lightblue;
     margin-left: 20px;
     font-weight: bold;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: width 2s, height 2s;
   }
+
+h1:hover {
+  width: 200px;
+  height: 200px;
+}
