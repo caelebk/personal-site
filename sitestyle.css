@@ -1,5 +1,38 @@
+@font-face{
+    font-family: "Consolas";
+    src: url(font/Consolas.ttf) format("truetype");
+    font-family: "whitrabt";
+    src: url(font/whitrabt.ttf) format("truetype");
+}
+@keyframes example {
+    from{visibility: initial;}
+    to {visibility: hidden;}
+}
+.cursor {
+    background-color:rgb(32, 194, 14);
+    width: 9px;
+    height: 3px;
+    animation: example 1s infinite steps(2, start);
+    margin-left: 3px;
+    display: inline-block;
+}
+.test {
+    font-size: 14px;
+    color: rgb(32, 194, 14);
+}
 h1 {
-    width: 1000px;
-    height: 100px;
-    background-color: orange;
+    text-align:center;
+    color: rgb(32, 194, 14);
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Consolas';
+}
+body{
+    background-color: black;
+}
+
+a {
+    font-size: 14px;
+    color: rgb(32, 194, 14);
+    text-decoration: underline;
 }
