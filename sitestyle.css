@@ -4,6 +4,8 @@
     font-family: "whitrabt";
     src: url(font/whitrabt.ttf) format("truetype");
 }
+
+
 @keyframes default {
     from{visibility: initial;}
     to {visibility: hidden;}
@@ -13,7 +15,7 @@
     to {width: 100%}
 }
 .cursor {
-    background-color:lightgray;
+    background-color:whitesmoke;
     width: 18px;
     height: 6px;
     animation: default 1s infinite steps(2, start);
@@ -22,7 +24,7 @@
 }
 .test {
     font-size: 14px;
-    color: lightgray;
+    color: whitesmoke;
 }
 h1 {
     overflow: hidden;
@@ -30,38 +32,47 @@ h1 {
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .1em;
-    color: lightgray;
+    color: whitesmoke;
     padding: 20px;
     font-size: 50px;
     font-family: 'Consolas';
     animation: type 4s steps(40, end);
 }
 body{
-    background-color: rgb(0,0,128);
+    /*background-color: rgb(0,0,128);*/
+    background-color: rgb(0, 121, 216);
 }
 
 a {
     padding: 5px;
     font-size: 20px;
     font-family: 'Consolas';
-    color: lightgray;
+    color: whitesmoke;
 }
 
 h2 {
     display: inline-block;
-    margin-left: 5px;
-    color:lightgray;
-    font-family: 'Consolas';
+    margin-left: 15%;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+p {
+    font-size: 20px;
+    letter-spacing:0.05em;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .horizontal{
-    background-color: lightgray;
+    background-color: whitesmoke;
     width: 100%;
     height: 3px;
 }
 
 .vertical{
-    background-color: lightgray;
+    background-color: whitesmoke;
     position: absolute;
     height: 100%;
     width: 3px;
@@ -74,3 +85,10 @@ h2 {
     color: lightgray;
 
 }
+
+.sadface{
+    padding: 10px;
+    margin-left: 10%;
+    font-size:100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
