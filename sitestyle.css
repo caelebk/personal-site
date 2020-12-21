@@ -15,7 +15,7 @@
     to {width: 100%}
 }
 .cursor {
-    background-color:whitesmoke;
+    background-color:rgb(32,194,14);;
     width: 18px;
     height: 6px;
     animation: default 1s infinite steps(2, start);
@@ -24,7 +24,7 @@
 }
 .test {
     font-size: 14px;
-    color: whitesmoke;
+    color: rgb(32,194,14);;
 }
 h1 {
     overflow: hidden;
@@ -32,7 +32,7 @@ h1 {
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .1em;
-    color: whitesmoke;
+    color: rgb(32,194,14);
     padding: 20px;
     font-size: 50px;
     font-family: 'Consolas';
@@ -66,24 +66,21 @@ p {
 }
 
 .horizontal{
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: whitesmoke;
-    width: 100%;
+    width: 50%;
     height: 3px;
 }
 
-.vertical{
-    background-color: whitesmoke;
-    position: absolute;
-    height: 100%;
-    width: 3px;
-    margin-left: 70%;
-}
-
-.rightText{
-    padding: 30px;
-    font-size: 20px;
-    color: lightgray;
-
+.black {
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
 }
 
 .sadface{
@@ -92,3 +89,4 @@ p {
     font-size:100px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
