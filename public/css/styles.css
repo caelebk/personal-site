@@ -10,4 +10,10 @@
     background-image: url("/resources/imgs/lake.jpg");
     background-size: cover;
     background-position: center 15%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#info{
+    height:30em;
 }
