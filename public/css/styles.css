@@ -1,0 +1,13 @@
+.no-decor{
+    text-decoration: none;
+}
+.no-decor:hover{
+    text-decoration: none;
+}
+
+#introduction{
+    height:25em;
+    background-image: url("/resources/imgs/lake.jpg");
+    background-size: cover;
+    background-position: center 15%;
+}
