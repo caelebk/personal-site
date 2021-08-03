@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 .no-decor{
     text-decoration: none;
 }
@@ -6,7 +9,7 @@
 }
 
 #introduction{
-    height:25em;
+    height:30rem;
     background-image: url("/resources/imgs/lake.jpg");
     background-size: cover;
     background-position: center 15%;
@@ -15,5 +18,41 @@
 }
 
 #info{
-    height:30em;
+    height:31em;
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace;  
+}
+
+#cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: white;
+    margin-left: 8px;
+}
+
+#toolbar {
+    width:100%;
+    height:1.5em;
+    background-color:silver;
+}
+
+.highlight{
+    color:lawngreen;
+}
+
+.profile {
+    opacity:0;
+    border-radius:100px;
+    border: 2px solid white;
+}
+
+.fadein {
+    animation: fade 2s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade{
+    from {opacity: 0}
+    to {opacity : 1}
 }
