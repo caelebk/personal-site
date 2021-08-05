@@ -44,11 +44,10 @@
 
 .profile {
     opacity:0;
+    
 }
 
 #profile {
-    border-radius:100px;
-    border: 2px solid white;
     transition: 0.5s;
 }
 
@@ -97,4 +96,15 @@
 
 .white-border{
     border-color:white;
+}
+
+@media (max-width: 1024px) {
+    .lead{
+        font-size: 14px;
+    }
+}
+@media (max-width: 508px) {
+    .lead{
+        font-size: 10px;
+    }
 }
