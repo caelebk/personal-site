@@ -1,110 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-.no-decor{
-    text-decoration: none;
+.no-decor {
+  text-decoration: none;
 }
-.no-decor:hover{
-    text-decoration: none;
-}
-
-#introduction{
-    height:30rem;
-    background-image: url("/resources/imgs/lake.jpg");
-    background-size: cover;
-    background-position: center 15%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+.no-decor:hover {
+  text-decoration: none;
 }
 
-#info{
-    height:31em;
-    color: rgba(255,255,255,.75);
-    font-family: 'Anonymous Pro', monospace;  
+#introduction {
+  height: 30rem;
+  background-image: url("/resources/imgs/lake.jpg");
+  background-size: cover;
+  background-position: center 15%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#info {
+  height: 31em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Anonymous Pro", monospace;
 }
 
 #cursor {
-    display: inline-block;
-    width: 2px;
-    height: 42px;
-    background-color: white;
-    margin-left: 8px;
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: white;
+  margin-left: 8px;
 }
 
 .toolbar {
-    font-family: 'Anonymous Pro', monospace; 
-    width:100%;
-    height:1.5em;
-    background-color:silver;
+  font-family: "Anonymous Pro", monospace;
+  width: 100%;
+  height: 1.5em;
+  background-color: silver;
 }
 
-.highlight{
-    color:lawngreen;
+.highlight {
+  color: lawngreen;
 }
 
 .profile {
-    opacity:0;
-    
+  opacity: 0;
 }
 
 #profile {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 #profile:hover {
-    box-shadow: 0 0 15px #ffee10;  
+  box-shadow: 0 0 15px #ffee10;
 }
 
 .fadein {
-    animation: fadeinward 1.5s ease-in;
-    animation-fill-mode: forwards;
+  animation: fadeinward 1.5s ease-in;
+  animation-fill-mode: forwards;
 }
 
-@keyframes fadeinward{
-    from {opacity: 0}
-    to {opacity : 1}
+.pointer {
+  cursor: pointer;
+}
+
+@keyframes fadeinward {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .fadeout {
-    animation: fadeoutward 1s ease-in;
-    animation-fill-mode: forwards;
+  animation: fadeoutward 1s ease-in;
+  animation-fill-mode: forwards;
 }
 
-@keyframes fadeoutward{
-    from {opacity: 1}
-    to {opacity : 0}
+@keyframes fadeoutward {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
-.carousel-section{
-    padding-top:8%;
-    width:100%;
-    height:30em;
-    background-color:rgba(101,147,245,1);
+.carousel-section {
+  padding-top: 8%;
+  width: 100%;
+  height: 30em;
+  background-color: rgba(101, 147, 245, 1);
 }
 
-.carousel-indicators:hover{
-    cursor: pointer;
+.carousel-indicators:hover {
+  cursor: pointer;
 }
 
-#footer{
-    height:25em;
+#footer {
+  height: 25em;
 }
 
-.svg-card{
-    vertical-align:middle;
+.svg-card {
+  vertical-align: middle;
 }
 
-.white-border{
-    border-color:white;
+.white-border {
+  border-color: white;
 }
 
 @media (max-width: 1024px) {
-    .lead{
-        font-size: 14px;
-    }
+  .lead {
+    font-size: 14px;
+  }
 }
 @media (max-width: 508px) {
-    .lead{
-        font-size: 10px;
-    }
+  .lead {
+    font-size: 10px;
+  }
 }

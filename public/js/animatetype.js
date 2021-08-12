@@ -29,6 +29,7 @@ function fadein(){
     let profile = document.querySelectorAll('.profile');
     for(pro of profile){
         pro.classList.add('fadein');
+        pro.classList.add('pointer');
     }
 }
 
