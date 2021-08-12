@@ -36,10 +36,10 @@ typeWriter("#typetext1", ">  console.log(caeleb.name)").then(()=>{
     response("#typetext1A", '>  Caeleb Koharjo').then(()=>{
         typeWriter('#typetext2', '>  console.log(caeleb.age)').then(()=>{
             response('#typetext2A', '>  20').then(()=>{
-                typeWriter('#typetext3', '>  console.log(caeleb.location)').then(()=>{
-                    response('#typetext3A', '>  Vancouver, British Columbia').then(()=>{
-                        typeWriter('#typetext4', '>  console.log(caeleb.university)').then(()=>{
-                            response('#typetext4A', '>  University of British Columbia').then(()=>{
+                typeWriter('#typetext3', '>  console.log(caeleb.ethnicity)').then(()=>{
+                    response('#typetext3A', '>  Indonesia').then(()=>{
+                        typeWriter('#typetext4', '>  console.log(caeleb.location)').then(()=>{
+                            response('#typetext4A', '>  Vancouver, British Columbia').then(()=>{
                                 typeWriter('#typetext5', '>  console.log(caeleb.hobbies)').then(()=>{
                                     response('#typetext5A', '>  ["gaming", "anime", "cooking", "video editing", "coding"]');
                                 }).then(()=>{
