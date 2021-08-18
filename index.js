@@ -13,9 +13,13 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about.ejs');
 })
-app.get('/projects', (req, res) => {
-    res.render('projects.ejs');
-})
+// app.get('/projects', (req, res) => {
+//     res.render('projects.ejs');
+// })
+
+app.use(function (req, res) {
+    res.status(404).render('WIP.ejs');
+});
 
 app.listen(process.env.PORT || 3000, () => {
     console.log("Listening on port 3000");
